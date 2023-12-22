@@ -15,7 +15,7 @@ include '../templates/header.php';
 <div class="flex items-center justify-center h-screen">
     <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
         <h2 class="text-2xl font-bold mb-4 text-gray-800">Sign Up</h2>
-        <form action="../../Controller/SignupController.php" method="POST">
+        <form action="../../app/Controller/SignupController.php" method="POST">
             <!-- Full Name -->
             <div class="mb-4">
                 <label class="block text-gray-700 text-sm font-bold mb-2" for="fullname">Full Name</label>

@@ -15,7 +15,7 @@ include '../templates/header.php';
     <div class="bg-white p-8 rounded shadow-md w-full max-w-sm">
         <h2 class="text-2xl font-bold mb-4 text-gray-800">Login</h2>
 
-        <form action="../../Controller/LoginController.php" method="POST">
+        <form action="../../app/Controller/LoginController.php" method="POST">
             <?php if (isset($errors['login'])): ?>
                 <div class="mb-4 text-red-500">
                     <?php echo $errors['login']; ?>
